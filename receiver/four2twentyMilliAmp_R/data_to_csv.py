@@ -11,6 +11,8 @@ with serial.Serial('COM4', 115200) as ser:
         line_count = 0
         while True:
             line = ser.readline()
+            if not line.startswith(b'V:  '): continue
+            #print(line)
 
             data, current = line[4:].strip().split(b' ')
 
