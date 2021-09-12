@@ -1,6 +1,3 @@
-/*
-  4-20mA T click calibration
- */
 #include <SPI.h>
 
 // Arduino UNO with Mikroe Arduino Uno Click shield
@@ -11,15 +8,10 @@
 // MOSI is pin 11
 #define DAC_CS 21
 
-// Used to receive data from serial port
-int received;
-
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
 
-  // initialize serial
   Serial.begin(115200);
-  // initialize SPI
   SPI.begin();
   pinMode(DAC_CS, OUTPUT);
 
@@ -27,11 +19,6 @@ void setup() {
 }
 
 void loop() {
-  //digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  //delay(1000);                       // wait for a second
-  //digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  //delay(1000);                       // wait for a second
-
   while (Serial.available() > 0) {
     int received = Serial.parseInt();
     if (Serial.read() == '\n') {
@@ -44,23 +31,6 @@ void loop() {
       set_DAC(received);
     }
   }
-
-
-
-
-  // static int fisken = 0;
-  // delay(1);
-  // if (++fisken >= 2048) fisken = 0;
-  // //fisken = constrain(++fisken, 0 , 2048);
-  // set_DAC(fisken);
-
-
-  // static int printCount = 0;
-  // printCount++;
-  // if (printCount % 200 == 3)
-  // {
-  //   Serial.println(fisken);
-  // }
 }
 
 void set_DAC(int set_value){
