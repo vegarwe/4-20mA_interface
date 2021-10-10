@@ -1,7 +1,7 @@
 import serial
 import sys
 
-with serial.Serial('COM4', 115200) as ser:
+with serial.Serial('COM5', 115200) as ser:
     with open('data_to.csv', 'wb') as csv_file:
         header = b'data, loop_current'
         csv_file.write(header)
