@@ -1,0 +1,50 @@
+// Created with Version:  2.0.21.426
+LANG;SEL   ;
+0   ;62    ;
+@
+ 1  ;DMA-2-01      ;2  ;3354 ;10,08* ;0,01 ;----xxxx----xx--;95 ;DMA-2 ;0 ;DMA-2-01a ;19200 ;20 ;1 ;
+@
+CID ;NAME  ;Row;Col;FMT;UN ;MIN     ;MAX    ;STEP  ;VALUE  ;SKAL   ;REL ;CONTROL                 ;VALID_01        ;
+1   ;d1.01 ;1  ;0  ;13 ;V  ;-10.000 ;10.000 ;      ;0,000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+2   ;d1.02 ;2  ;0  ;13 ;V  ;-10.000 ;10.000 ;      ;0,000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+3   ;d1.03 ;3  ;0  ;13 ;V  ;-10.000 ;10.000 ;      ;0,000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+4   ;d1.04 ;4  ;0  ;13 ;V  ;-10.000 ;10.000 ;      ;0,000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+5   ;d1.05 ;5  ;0  ;13 ;V  ;-10.000 ;10.000 ;      ;0,000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+6   ;d1.06 ;6  ;0  ;13 ;V  ;-10.000 ;10.000 ;      ;0,000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+7   ;d1.07 ;7  ;0  ;13 ;A  ;-10.000 ;10.000 ;      ;0,000  ;98,OSZI=105;    ;                        ;xxxxxxxxxxxxxxx-;
+8   ;d1.08 ;8  ;0  ;13 ;A  ;-10.000 ;10.000 ;      ;0,000  ;98,OSZI=105;    ;                        ;xxxxxxxxxxxxxxx-;
+9   ;d1.09 ;9  ;0  ;13 ;A  ;-10.000 ;10.000 ;      ;0,000  ;98,OSZI=105;    ;                        ;xxxxxxxxxxxxxxx-;
+10  ;d1.10 ;10 ;0  ;13 ;V  ;-10.000 ;10.000 ;      ;0,000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+22  ;S1.01 ;0  ;2  ;3  ;V  ;-9.999  ;9.999  ;      ;0.000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+23  ;S1.02 ;1  ;2  ;3  ;V  ;-9.999  ;9.999  ;      ;0.000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+24  ;S1.03 ;2  ;2  ;3  ;V  ;-9.999  ;9.999  ;      ;0.000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+25  ;S1.04 ;3  ;2  ;3  ;V  ;-9.999  ;9.999  ;      ;0.000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+27  ;r1.01 ;5  ;2  ;2  ;s  ;0.00    ;39.50  ;0.01  ;0.00   ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+28  ;r1.02 ;6  ;2  ;2  ;s  ;0.00    ;39.50  ;0.01  ;0.00   ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+29  ;r1.03 ;7  ;2  ;2  ;s  ;0.00    ;39.50  ;0.01  ;0.00   ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+30  ;r1.04 ;8  ;2  ;2  ;s  ;0.00    ;39.50  ;0.01  ;0.00   ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+43  ;C1.02 ;2  ;4  ;6  ;   ;0       ;5      ;1     ;0      ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+44  ;C1.03 ;3  ;4  ;2  ;V/V;0.00    ;2.00   ;0.01  ;1.00   ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+45  ;C1.04 ;4  ;4  ;2  ;V/V;0.00    ;2.00   ;0.01  ;1.00   ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+46  ;C1.05 ;5  ;4  ;2  ;   ;-4.00   ;4.00   ;      ;1.00   ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+47  ;C1.06 ;6  ;4  ;3  ;V  ;-9.999  ;9.999  ;0.001 ;0.000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+48  ;C1.07 ;7  ;4  ;3  ;V  ;0.000   ;9.999  ;0.001 ;0.000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+49  ;C1.08 ;8  ;4  ;3  ;V  ;0.000   ;9.999  ;0.001 ;0.000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+164 ;C1.27 ;27 ;4  ;3  ;V  ;0.000   ;9.999  ;0.001 ;0.000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+95  ;E 00  ;0  ;6  ;7  ;   ;1       ;1      ;      ;1      ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+97  ;E 02  ;2  ;6  ;6  ;   ;0       ;4      ;      ;0      ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+98  ;E1.03 ;3  ;6  ;8  ;A  ;1       ;7      ;      ;1      ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+99  ;E1.04 ;5  ;6  ;9  ;   ;0       ;9999   ;0001  ;500    ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+100 ;E1.05 ;7  ;6  ;9  ;   ;0       ;9999   ;0001  ;500    ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+101 ;E1.06 ;9  ;6  ;9  ;   ;0       ;9999   ;0001  ;1300   ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+102 ;E1.07 ;11 ;6  ;9  ;   ;0       ;9999   ;0001  ;500    ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+103 ;E 08  ;13 ;6  ;7  ;   ;0       ;2      ;1     ;1      ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+104 ;E 09  ;14 ;6  ;3  ;s  ;0.000   ;9.999  ;0.001 ;0.000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+105 ;E1.10 ;15 ;6  ;2  ;   ;0.50    ;1.10   ;0.01  ;1.00   ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+106 ;E 11  ;17 ;6  ;3  ;V  ;0.000   ;3.000  ;0.001 ;0.000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+107 ;E 12  ;18 ;6  ;3  ;V  ;0.000   ;3.000  ;0.001 ;0.000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+108 ;E1.13 ;19 ;6  ;3  ;V  ;0.000   ;3.000  ;0.001 ;0.000  ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+109 ;E1.14 ;21 ;6  ;0  ;Hz ;0       ;300    ;1     ;0      ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+110 ;E 15  ;23 ;6  ;7  ;   ;0       ;8      ;      ;3      ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+112 ;E 17  ;25 ;6  ;6  ;   ;0       ;2      ;      ;0      ;       ;    ;                        ;xxxxxxxxxxxxxxx-;
+@
